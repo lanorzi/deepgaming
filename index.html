@@ -103,7 +103,7 @@ div {
 <div class="w3-display-container w3-animate-opacity">
   <img src="https://ads40.files.wordpress.com/2015/07/screenshot-2015-07-04-at-20-07-43.png" alt="boat" style="width:100%;min-height:350px;max-height:800px;">
   <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
-    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Deep Gaming</button>
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Deep Gaming">Deep Gaming</button>
   </div>
 </div>
 
@@ -116,22 +116,22 @@ div {
 
 <div class="w3-quarter">
   <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/000/1fc/29c/08bd129.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h4>Chan, Ying</h4>
+  <h4 style="font-family: 'Arial Narrow', Arial, sans-serif;">Chan, Ying</h4>
 </div>
 
 <div class="w3-quarter">
   <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAgbAAAAJGI0Mzg3MTFlLWFmODEtNDJmYS04NGE4LWZlNjVlODA1ZTA1YQ.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h4>Lane, Jackson</h4>
+  <h4 style="font-family: 'Arial Narrow', Arial, sans-serif;">Lane, Jackson</h4>
 </div>
 
 <div class="w3-quarter">
   <img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAgKAAAAJDdjYjY5MjI4LTUyMDktNDNhZS05ZjY0LTA3MDY2ZmU2MmY1Yg.jpg" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h4>Liu, Dongzi</h4>
+  <h4 style="font-family: 'Arial Narrow', Arial, sans-serif;">Liu, Dongzi</h4>
 </div>
 
 <div class="w3-quarter">
   <img src="http://wfarm1.dataknet.com/static/resources/icons/set99/464f59d0.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
-  <h4>Song, Minghu</h4>
+  <h4 style="font-family: 'Arial Narrow', Arial, sans-serif;">Song, Minghu</h4>
 </div>
 
 </div>
@@ -180,10 +180,8 @@ div {
 <img src="playing.gif" alt="AI in place" style="width:600px;height:250px;">
 
 
-
-        <li class="w3-theme-l5 w3-padding-24">
-          <button class="w3-button w3-teal w3-padding-large" onclick="window.open('https://chrome.google.com/webstore/detail/gomoku-ai-player/ncnjjhjgnpnabiacbihlffcmhhknobbc')"> Add Gomoku AI player Google Extension!</button>
-          </li>
+<button class="w3-button w3-teal w3-padding-large" onclick="window.open('https://chrome.google.com/webstore/detail/gomoku-ai-player/ncnjjhjgnpnabiacbihlffcmhhknobbc')"> Add Gomoku AI player Google Extension!</button>
+<p></p>
 </div>
 
 
@@ -202,11 +200,10 @@ div {
 
 <!-- Model Row -->
 <div class="w3-row-padding w3-padding-6 w3-padding-64" id="model">
-<div class="w3-card-2 w3-white">
 
     <h2>MODEL</h2>
  
-    <h3>Q Learning Approach</h3>
+    <h3 style="font-family: 'Arial Narrow', Arial, sans-serif;">Q Learning Approach</h3>
  <ul>
   <li>Simple form of reinforcement learning family of algorithms</li>
   <li>Representation of various environmental states: Game board state</li>
@@ -215,8 +212,6 @@ div {
   <li>Representation of value: A reward function based on how many stones are lined up in a vertical/horizontal/diagonal line</li>
   <li>Neural network with typical layers to predict action based on updating q value below</li>
   <img src="https://github.com/lanorzi/deepgaming/blob/master/q%20learning.png?raw=true" alt="System Design" style="width:700px;height:120px;">
-
-
 </ul>
 </div>
 
