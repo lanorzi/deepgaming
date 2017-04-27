@@ -186,7 +186,8 @@ div {
   <ul>
   	<li>This is fun!</li>
 	<li>Self education</li>
-    <li>Extension can be applied to any other game on site</li>
+    <li>Extension can be applied to any other game on <a href="https://boardgamearena.com/">BoardGameArena</a>
+site</li>
   </ul>
   </div>
   </div>
@@ -279,11 +280,17 @@ div {
 	
 </div>
 
-<div class="w3-content w3-center" style="max-width:1000px;margin-top:30px" id="othergame">
+<div class="w3-content" style="max-width:1000px;margin-top:30px" id="othergame">
     <h2>OTHER GAME</h2>
+      <img src="hive.png" alt="hive" style="width:70%;min-height:350px;max-height:800px;">
 
-	<button class="w3-button w3-teal w3-padding-large" onclick="window.open('https://chrome.google.com/webstore/detail/hive-ai-player/gekgnjjihigmpenfepjcdpffhnfoadeh/related
-')"> Check AI player for Hive as well !</button>
+<p>One of our goals was to build a generic AI framework for board games: Given the right agent, our browser extension code and system design should be extensible to any of the110+ different games in BoardGameArena’s catalog.</p>
+<p>Although we primarily focused only on Gomoku during our project, we tested the extensibility of our browser extension and system design by applying it to the game of Hive on BoardGameArena.  We chose the game of Hive because A) none of the members of our team knew the rules or how to play, and B) we found a number of good Hive AIs on GitHub.  We chose to go with <a href="https://github.com/cmelchior/hivemind">https://github.com/cmelchior/hivemind</a>  because it had the highest star rating.</p>
+<p>With this AI, we built a working Hive browser extension even when we ourselves possessed little knowledge of the rules of Hive on our part.  The development took only a fraction of the time it took to make the original Gomoku extension because we were able to reuse our code.  We imagine that development of browser extensions for other games on BoardGameArena will also be relatively straightforward, provided we have the right AI for each game.</p>
+<p>Of course, The dream is to build a generic AI that can operate unsupervised in environments beyond its creators’ understanding.  E.g. An AI that can learn to play a board game where the rules are unknown.  However, we quickly discovered during our capstone that writing such a learning algorithm is well beyond the scope of our education.  But at least when such at least can say that when such an AI does come around, we can provide it with a library of over 110 different board games to play with.</p>
+	<div align="center"><button class="w3-button w3-teal w3-padding-large" onclick="window.open('https://chrome.google.com/webstore/detail/hive-ai-player/gekgnjjihigmpenfepjcdpffhnfoadeh/related
+')"> Check AI player for Hive!</button></div>
+<p></p>
 
 	
 </div>
